@@ -8,11 +8,11 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <NavLink to="/home" className="nav-logo">
+      <NavLink to="/" className="nav-logo">
         <img src={assets.logo} alt="brand logo" className="logo"></img>
       </NavLink>
       <div className="nav-links">
-        <NavLink to="/home" className={linkClasses}>
+        <NavLink to="/" className={linkClasses}>
           Home
         </NavLink>
         <NavLink to="/gallery" className={linkClasses}>
